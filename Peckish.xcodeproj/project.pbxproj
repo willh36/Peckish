@@ -13,6 +13,9 @@
 		FA74DF862C5D402100ACBA3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA74DF852C5D402100ACBA3A /* Preview Assets.xcassets */; };
 		FAE71FCE2C65A3CF0093D2EA /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = FAE71FCD2C65A3CF0093D2EA /* Auth0 */; };
 		FAE71FD02C65A4890093D2EA /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAE71FCF2C65A4890093D2EA /* Auth0.plist */; };
+		FAE71FD52C6651D30093D2EA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE71FD42C6651D20093D2EA /* ProfileView.swift */; };
+		FAE71FD72C6651EB0093D2EA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE71FD62C6651EB0093D2EA /* User.swift */; };
+		FAE71FD92C66CFC00093D2EA /* NewUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE71FD82C66CFC00093D2EA /* NewUserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		FA74DF852C5D402100ACBA3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAE71FCB2C65A3820093D2EA /* Peckish.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Peckish.entitlements; sourceTree = "<group>"; };
 		FAE71FCF2C65A4890093D2EA /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		FAE71FD42C6651D20093D2EA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		FAE71FD62C6651EB0093D2EA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FAE71FD82C66CFC00093D2EA /* NewUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,7 @@
 				FAE71FCB2C65A3820093D2EA /* Peckish.entitlements */,
 				FA74DF7E2C5D401F00ACBA3A /* PeckishApp.swift */,
 				FA74DF802C5D401F00ACBA3A /* ContentView.swift */,
+				FAE71FD12C66511B0093D2EA /* Onboarding */,
 				FAE71FCF2C65A4890093D2EA /* Auth0.plist */,
 				FA74DF822C5D402100ACBA3A /* Assets.xcassets */,
 				FA74DF842C5D402100ACBA3A /* Preview Content */,
@@ -72,6 +79,16 @@
 				FA74DF852C5D402100ACBA3A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAE71FD12C66511B0093D2EA /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				FAE71FD42C6651D20093D2EA /* ProfileView.swift */,
+				FAE71FD62C6651EB0093D2EA /* User.swift */,
+				FAE71FD82C66CFC00093D2EA /* NewUserView.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE71FD52C6651D30093D2EA /* ProfileView.swift in Sources */,
 				FA74DF812C5D401F00ACBA3A /* ContentView.swift in Sources */,
+				FAE71FD92C66CFC00093D2EA /* NewUserView.swift in Sources */,
+				FAE71FD72C6651EB0093D2EA /* User.swift in Sources */,
 				FA74DF7F2C5D401F00ACBA3A /* PeckishApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
